@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    body { font-family: Segoe UI; padding: 20px; text-align: center; }
+    button { padding: 12px 24px; background: #0078d4; color: white; border: none; cursor: pointer; font-size: 14px; border-radius: 4px; }
+    button:hover { background: #005a9e; }
+  </style>
+</head>
+<body>
+  <p>Soumettre une demande via le formulaire officiel :</p>
+  <button onclick="ouvrirTicket()">📋 Créer un ticket</button>
+
+  <script>
+    Office.onReady();
+
+    const FORMS_URL = "https://forms.office.com/r/TON-ID-FORMS-ICI";
+
+    function ouvrirTicket() {
+      window.open(FORMS_URL, "_blank");
+    }
+  </script>
+</body>
+</html>
