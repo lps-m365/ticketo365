@@ -32,7 +32,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?prevorigin=shell&origin=TemplatePane&linkreferrer=Others&prevsubpage=design&subpage=design&id=uP59AQsfdk6I_CfaDJVX3YIqGyATawxMhFLf5W9lXO9UM1c5N0lGN0FRU09WN05aVVhWRVVIRTlKSC4u&topview=Preview"/>
+        <SourceLocation DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -109,7 +109,7 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?prevorigin=shell&origin=TemplatePane&linkreferrer=Others&prevsubpage=design&subpage=design&id=uP59AQsfdk6I_CfaDJVX3YIqGyATawxMhFLf5W9lXO9UM1c5N0lGN0FRU09WN05aVVhWRVVIRTlKSC4u&topview=Preview"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="CommandsGroup.Label" DefaultValue="Support"/>
