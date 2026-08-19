@@ -10,8 +10,8 @@
   <DefaultLocale>fr-FR</DefaultLocale>
   <DisplayName DefaultValue="Créer un ticket"/>
   <Description DefaultValue="Ouvre le formulaire de création de ticket"/>
-  <IconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/outlook-hello-world/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/outlook-hello-world/assets/icon-64.png"/>
+  <IconUrl DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-64.png"/>
   <SupportUrl DefaultValue="https://forms.office.com"/>
 
   <AppDomains>
@@ -32,7 +32,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://entreprise-kaizzen.github.io/TESTEXTENSIONOUTLOOKNICO/taskpane.html"/>
+        <SourceLocation DefaultValue="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?prevorigin=shell&origin=TemplatePane&linkreferrer=Others&prevsubpage=design&subpage=design&id=uP59AQsfdk6I_CfaDJVX3YIqGyATawxMhFLf5W9lXO9UM1c5N0lGN0FRU09WN05aVVhWRVVIRTlKSC4u&topview=Preview"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -104,12 +104,12 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/outlook-hello-world/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/outlook-hello-world/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://officedev.github.io/Office-Add-in-samples/Samples/hello-world/outlook-hello-world/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-64.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/lps-m365/ticketo365/blob/main/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://entreprise-kaizzen.github.io/TESTEXTENSIONOUTLOOKNICO/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?prevorigin=shell&origin=TemplatePane&linkreferrer=Others&prevsubpage=design&subpage=design&id=uP59AQsfdk6I_CfaDJVX3YIqGyATawxMhFLf5W9lXO9UM1c5N0lGN0FRU09WN05aVVhWRVVIRTlKSC4u&topview=Preview"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="CommandsGroup.Label" DefaultValue="Support"/>
